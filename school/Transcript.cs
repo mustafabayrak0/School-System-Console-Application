@@ -24,7 +24,6 @@ namespace school
             crsInfo.DersKodu = CrsKodu;
             studentInfo.OgrenciNo = OgrNo;
             studentInfo.SoyIsim = OgrSoyIsim;
-            studentInfo.Isim = OgrIsim;
         }
     }
 }
