@@ -13,17 +13,16 @@ namespace school
 
 
 
-        public Transcript(string OgrIsim, string OgrSoyIsim, int OgrNo, string CrsKodu, string CrsAdi, int CrsKredi, char CrsNot, int CrsVizePuani, int CrsFinalPuani)
+        public Transcript(string OgrIsim, string OgrSoyIsim, int OgrNo, char CrsNot1, char CrsNot2, char CrsNot3, char CrsNot4, char CrsNot5)
         {
             studentInfo.Isim = OgrIsim;
-            crsInfo.FinalPuani = CrsFinalPuani;
-            crsInfo.VizePuani = CrsVizePuani;
-            crsInfo.Not = CrsNot;
-            crsInfo.Kredi = CrsKredi;
-            crsInfo.DersAdi = CrsAdi;
-            crsInfo.DersKodu = CrsKodu;
-            studentInfo.OgrenciNo = OgrNo;
             studentInfo.SoyIsim = OgrSoyIsim;
+            studentInfo.OgrenciNo = OgrNo;
+            crsInfo.Not1 = CrsNot1;
+            crsInfo.Not2 = CrsNot2;
+            crsInfo.Not3 = CrsNot3;
+            crsInfo.Not4 = CrsNot4;
+            crsInfo.Not5 = CrsNot5;
         }
     }
 }
